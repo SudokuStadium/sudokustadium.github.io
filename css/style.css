@@ -140,7 +140,7 @@ section:nth-of-type(odd) {
 }
 
 .btn:hover {
-    background-color: #e0356e;
+    background-color: #69a6ce;
     color: #fff;
     text-decoration: none;
 }
@@ -163,13 +163,13 @@ p.description {
 }
 
 .white-btn:hover{
-    background: #e0356e;
+    background: #69a6ce;
     color: #fff;
     text-decoration:none;
 }
 
 .pink-btn {
-    background: #e0356e;
+    background: #69a6ce;
     border: none;
     margin-left: 10px;
 }
@@ -183,7 +183,7 @@ p.description {
 .btn-sm{
     width: 160px;
     height: 38px;
-    background: #FF3366;
+    background: #2980b9;
     color: #fff;
     font-size: 18px;
     display: inline-block;
@@ -243,20 +243,20 @@ p.description {
 } 
  
 .main-menu.tiny .navbar-nav > li.active > a {
-    color: #FF3366;
+    color: #2980b9;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background-color: transparent;
-    color: #E03561;
+    color: #184c6f;
 }
 .main-menu .navbar-nav > li > a:hover {
-    color: #E03561; 
+    color: #2980b9; 
 }
 
 .main-menu .navbar-nav > .active > a, .main-menu .navbar-nav > .active > a:hover, .main-menu .navbar-nav > .active > a:focus {
     background-color: transparent;
-    color: #E03561;
-    border-bottom: 3px solid #E03561;
+    color: #184c6f;
+    border-bottom: 3px solid #184c6f;
 }
 
 .navbar {
@@ -277,7 +277,7 @@ p.description {
 }
 
 #bgimage {
-	background-image: url(../images/headbg1.jpg);
+	background-image: url(../images/bluebg.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -302,8 +302,22 @@ p.description {
     display: inline-block;
     margin-right: 10px;
 }
+
+.heading-text .button a i{
+    border: 0px solid #585b60;
+    padding: 0px 0px;
+    color: #585b60;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
 .heading-text .button a:hover i{
-    border: 1px solid #fff;
+    border: 0px solid #fff;
     color: #fff;
 }
 .heading-text h1{
@@ -341,7 +355,7 @@ p.bannerDescription{
 }
 
 #bgimage .scroll_btn:hover {
-	background: url(../images/scroll.gif) 50% 50% no-repeat #E03561;
+	background: url(../images/scroll.gif) 50% 50% no-repeat #206694;
 	opacity: .85;
 	-moz-opacity: .85;
 	-o-opacity: .85;
@@ -374,8 +388,8 @@ p.bannerDescription{
 }
 
 .single_works_text:hover i{
-	color:#FF3366;
-	border: 1px solid #FF3366;
+	color:#2980b9;
+	border: 1px solid #2980b9;
 }
 
 
@@ -392,8 +406,8 @@ p.bannerDescription{
 	transition:.6s;
 }
 .single_works_2_text:hover i{
-	color:#FF3366;
-	border: 1px solid #FF3366;
+	color:#2980b9;
+	border: 1px solid #2980b9;
 }
 .single_works_2_text i{
     background: #fff;
@@ -427,7 +441,7 @@ p.bannerDescription{
 
 .right_single_bottom_text i {
 	font-size:35px;
-	color:#FF3366;
+	color:#2980b9;
 	float:left;
 	width: 35px;
 }
@@ -447,7 +461,7 @@ p.bannerDescription{
 }
 .second_single_text i{
 	font-size:35px;
-	color:#FF3366;
+	color:#2980b9;
 	float:left;
 }
 
@@ -536,14 +550,14 @@ p.bannerDescription{
 	margin-bottom:30px;
 }
 .economy_table{
-	border:1px solid #FF3366;
+	border:1px solid #2980b9;
 	position:relative;
 }
 .economy_table:after{
 	content:"Popular";
 	right:0;
 	top:40px;
-	background:#FF3366;
+	background:#2980b9;
 	color:#fff;
 	position:absolute;
 	padding:3px 10px;
@@ -681,7 +695,7 @@ a.info_right_text{
     width: 15%;
     padding: 14px;
     margin-left: -4px;
-    background: #FF3366;
+    background: #2980b9;
     border-radius:0px 6px 6px 0px;
     border: 0px transparent;
     color: #fff;
@@ -704,14 +718,14 @@ a.info_right_text{
 	margin-bottom:40px;
 }
 #message h2 {
-	color: #e0356e;
+	color: #69a6ce;
 	padding-bottom: 24px;
 }
 #message .form-group .form-control {
 	padding: 25px;
 }
 #message .larg-btn {
-	background: #e0356e;
+	background: #69a6ce;
 	border: none;
 	text-transform: none;
 	margin-top: 24px;
@@ -746,7 +760,7 @@ a.info_right_text{
 .socail_bookmark a:hover i{
     color: #fff;
     border: 1px solid #fff;
-    background: #FF3366;
+    background: #2980b9;
 	transform:scale(1.2);
 }
 
@@ -791,7 +805,7 @@ a.info_right_text{
 	-webkit-transition: opacity .5s, background-color .5s;
 }
 .scrollup:hover {
-	background: #E03561;
+	background: #206694;
 	opacity: 1;
 }
 .scrollup i {
@@ -810,7 +824,7 @@ a.info_right_text{
 /* Home page Two CSS */
 
 .bbgimage{
-	background-image: url(../images/bbg.jpg);
+	background-image: url(../images/bluebg.jpg);
 	background-size:100% 100%;	
 
 }
@@ -826,7 +840,7 @@ a.info_right_text{
 	
 }
 .button a{
-	margin-left:20px;
+	margin-left:10px;
 	transition:.5s;
 	opacity:1;
 }
