@@ -207,7 +207,7 @@ p.description {
 
 /* navbar section */
 .navbar-brand>img {
-    width: 70%;
+    width: 100%;
     margin-top: -12px;	
 }
 .main-menu {
@@ -229,7 +229,7 @@ p.description {
 }
 
 .main-menu.tiny .navbar-nav > li > a {
-	color:#666;
+	color: #2c3e50;
 }
 
 
