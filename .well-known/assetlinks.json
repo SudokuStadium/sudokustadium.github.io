@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.imaginationoverflow.SudokuStadium",
+    "sha256_cert_fingerprints":
+    ["59:CE:6F:82:E0:17:D2:E5:FF:22:31:AF:04:71:33:58:FA:78:7D:96:21:43:53:5D:2A:C2:2B:1B:AA:C5:7E:BD"]
+  }
+}]
