@@ -867,6 +867,22 @@ a.info_right_text{
      margin-right: 15px;
 }
 
+.openGame
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.openGame:hover {
+  text-decoration: none;
+    color: #ffffff;
+}
+
+.openGame:active {
+  text-decoration: none;
+    color: #ffffff;
+}
+
 .enjoy-css {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -897,6 +913,7 @@ a.info_right_text{
   -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
   -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
   transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  margin-bottom: 30px;
 }
 
 .enjoy-css:hover {
@@ -910,6 +927,7 @@ a.info_right_text{
   background-clip: border-box;
   -webkit-background-size: 34px auto;
   background-size: 34px auto;
+   margin-bottom: 30px;
 }
 
 .enjoy-css:active {
@@ -921,4 +939,193 @@ a.info_right_text{
   background-clip: border-box;
   -webkit-background-size: 34px auto;
   background-size: 34px auto;
+   margin-bottom: 30px;
+}
+
+.android_store_button {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 233px;
+  height: 50px;
+  cursor: pointer;
+   margin: 10px 0px 10px 0px;
+  border: 2px solid rgba(255,255,255,1);
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  font: normal 21px/49px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  text-indent: 42px;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: url("http://enjoycss.com/bg-img/custom/122480-1rp1jet.png"), rgba(255,255,255,0);
+  background-repeat: no-repeat;
+  background-position: 15% 44%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 34px 34px;
+  background-size: 34px 34px;
+  -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+display: inline-block;
+}
+
+.android_store_button:hover {
+  border: 2px solid rgb(27,76,109);
+  color: #1b4c6d;
+  background: url("http://enjoycss.com/bg-img/custom/122620-4ieu8y.png"), rgba(255,255,255,1);
+  background-repeat: no-repeat;
+  background-position: 15% 44%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 34px 34px;
+  background-size: 34px 34px;
+  display: inline-block;
+}
+
+.android_store_button:active {
+  border: 2px solid #1b4c6d;
+  background: url("http://enjoycss.com/bg-img/custom/122480-17qfeqz.png"), rgba(255,255,255,1);
+  background-repeat: no-repeat;
+  background-position: 15% 44%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 34px 34px;
+  background-size: 34px 34px;
+  -webkit-transition: background-image 0.3ms cubic-bezier(0.98, 0.975, 0.035, 0.015);
+  -moz-transition: background-image 0.3ms cubic-bezier(0.98, 0.975, 0.035, 0.015);
+  -o-transition: background-image 0.3ms cubic-bezier(0.98, 0.975, 0.035, 0.015);
+  transition: background-image 0.3ms cubic-bezier(0.98, 0.975, 0.035, 0.015);
+  display: inline-block;
+}
+
+.ios_store_button {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 233px;
+  height: 50px;
+  cursor: pointer;
+    margin: 10px 10px 10px 10px;
+  border: 2px solid rgba(255,255,255,1);
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  font: normal 21px/49px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  text-indent: 42px;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: url("http://enjoycss.com/bg-img/custom/122814-1d2lhae.png"), rgba(255,255,255,0);
+  background-repeat: no-repeat;
+  background-position: 15% 44%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 34px 34px;
+  background-size: 34px 34px;
+  -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+display: inline-block;
+}
+
+.ios_store_button:hover {
+  border: 2px solid rgb(27,76,109);
+  color: #1b4c6d;
+  background: url("http://enjoycss.com/bg-img/custom/122814-1fvv7p8.png"), rgba(255,255,255,1);
+  background-repeat: no-repeat;
+  background-position: 15% 44%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 34px 34px;
+  background-size: 34px 34px;
+  display: inline-block;
+}
+
+.ios_store_button:active {
+  background-repeat: no-repeat;
+  background-position: 15% 44%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 34px 34px;
+  background-size: 34px 34px;
+  display: inline-block;
+}
+
+
+.windows_store_button {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 233px;
+  height: 50px;
+  cursor: pointer;
+  margin: 10px 0px 10px 0px;
+  border: 2px solid rgba(255,255,255,1);
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  font: normal 21px/49px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  text-indent: 42px;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: url("http://enjoycss.com/bg-img/custom/122902-1op42v5.png"), rgba(255,255,255,0);
+  background-repeat: no-repeat;
+  background-position: 15% 44%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 34px 34px;
+  background-size: 34px 34px;
+  -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+display: inline-block;
+}
+
+.windows_store_button:hover {
+  border: 2px solid rgb(27,76,109);
+  color: #1b4c6d;
+  background: url("http://enjoycss.com/bg-img/custom/122902-1waz18o.png"), rgba(255,255,255,1);
+  background-repeat: no-repeat;
+  background-position: 15% 44%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 34px 34px;
+  background-size: 34px 34px;
+  display: inline-block;
+}
+
+.windows_store_button:active {
+  background-repeat: no-repeat;
+  background-position: 15% 44%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 34px 34px;
+  background-size: 34px 34px;
+  display: inline-block;
+
 }
