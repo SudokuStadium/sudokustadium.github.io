@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/owl-carousel/owl.transitions.css">
 
     
-    
+    <script src="js/jquery/jquery.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -72,14 +72,18 @@
 					  <h1>Play the game with or friends</h1>
 					  
 					   <div class="enjoy-css">
-					   		<a href="#">Open Game</a>
+					   		<a id="GameLink" href="">Open Game</a>
 
 					   </div>
 					   <script>
+
 							var baseUrl = window.location.href;
 							var deepLinking = "sudokuzenkai://share"
 							var finalurl = deepLinking + window.location.search;
+							
+							 
 							$(".enjoy-css a").attr("href", finalurl );
+							alert( finalurl );
 						</script>
 
 					
