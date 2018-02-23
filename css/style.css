@@ -1130,3 +1130,71 @@ display: inline-block;
   display: inline-block;
 
 }
+
+
+.steam_store_button {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 233px;
+  height: 50px;
+  cursor: pointer;
+  margin: 10px 10px 10px 10px;
+  border: 2px solid rgb(255,255,255);
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  font: normal 21px/49px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-indent: 42px;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: url("http://enjoycss.com/bg-img/custom/2660-1bxic7w.png"), rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  background-position: 15% 44%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 40px 40px;
+  background-size: 40px 40px;
+  -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  display: inline-block;
+
+}
+
+.steam_store_button:hover {
+  border: 2px solid rgb(27,76,109);
+  color: rgb(27, 76, 109);
+  background: url("http://enjoycss.com/bg-img/custom/2660-1ihozu5.png"), rgba(255,255,255,1);
+  background-repeat: no-repeat;
+  background-position: 15% 44%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 40px 40px;
+  background-size: 40px 40px;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+    display: inline-block;
+
+}
+
+.steam_store_button:active {
+  background-repeat: no-repeat;
+  background-position: 15% 44%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 40px 40px;
+  background-size: 40px 40px;
+    display: inline-block;
+
+}
