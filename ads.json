@@ -7,10 +7,10 @@
 },
  "android":
  {
-    "AdFacebook": 4,
-   "AdMob": 3,
+    "AdFacebook": 1,
+   "AdMob": 4,
    "AdUnity": 2,
-   "Vungle": 1
+   "Vungle": 3
  },
  "multiplatform":
  {
