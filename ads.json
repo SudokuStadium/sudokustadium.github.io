@@ -1,7 +1,7 @@
 {
    "ios":{
-   "AdFacebook": 4,
-   "AdMob": 1,
+   "AdFacebook": 1,
+   "AdMob": 4,
    "AdUnity": 2,
    "Vungle": 3
 },
