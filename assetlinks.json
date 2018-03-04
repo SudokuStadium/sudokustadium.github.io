@@ -2,8 +2,8 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.imaginationoverflow.SudokuStadium",
+    "package_name": "com.imaginationoverflow.sudokuzenkai",
     "sha256_cert_fingerprints":
-    ["AF:A4:0C:50:0D:57:E9:41:21:CD:57:49:D6:7F:DE:C8:EB:E4:82:B9:07:9B:05:94:7E:FE:47:FF:22:E8:19:2B"]
+    ["6E:C8:52:56:74:7A:4E:06:F3:DF:BB:A8:5E:85:57:6F:EE:43:E3:83:33:0B:D3:77:A3:D1:E0:3E:9D:D3:5A:55"]
   }
 }]
