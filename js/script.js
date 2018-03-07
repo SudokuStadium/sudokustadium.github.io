@@ -202,7 +202,7 @@ $('#portfolio a').nivoLightbox({
 $(document).ready(function() {
 
 
- google.maps.event.addDomListener(window, 'load', init);
+ /*google.maps.event.addDomListener(window, 'load', init);
         
             function init() {
                 // Basic options for a simple Google Map
@@ -232,7 +232,7 @@ $(document).ready(function() {
                     map: map,
                     title: 'Snazzy!'
                 });
-            }
+            }*/
 
 
 });	

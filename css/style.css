@@ -49,7 +49,7 @@ PRE LOADER
     margin: -20px 0 0 -20px;
 }
 .top-margin {
-    margin-top: 96px;
+    margin-top: 56px;
 }
 
 .bottom-margin {
@@ -959,7 +959,7 @@ a.info_right_text{
   text-indent: 42px;
   -o-text-overflow: clip;
   text-overflow: clip;
-  background: url("http://enjoycss.com/bg-img/custom/122480-1rp1jet.png"), rgba(255,255,255,0);
+  background: url(../images/android_logo.png), rgba(255,255,255,0);
   background-repeat: no-repeat;
   background-position: 15% 44%;
   -webkit-background-origin: padding-box;
@@ -978,7 +978,7 @@ display: inline-block;
 .android_store_button:hover {
   border: 2px solid rgb(27,76,109);
   color: #1b4c6d;
-  background: url("http://enjoycss.com/bg-img/custom/122620-4ieu8y.png"), rgba(255,255,255,1);
+  background:  url(../images/android_logo_hover.png), rgba(255,255,255,1);
   background-repeat: no-repeat;
   background-position: 15% 44%;
   -webkit-background-origin: padding-box;
@@ -992,7 +992,7 @@ display: inline-block;
 
 .android_store_button:active {
   border: 2px solid #1b4c6d;
-  background: url("http://enjoycss.com/bg-img/custom/122480-17qfeqz.png"), rgba(255,255,255,1);
+  background: url(../images/android_logo_hover.png), rgba(255,255,255,1);
   background-repeat: no-repeat;
   background-position: 15% 44%;
   -webkit-background-origin: padding-box;
@@ -1025,7 +1025,7 @@ display: inline-block;
   text-indent: 42px;
   -o-text-overflow: clip;
   text-overflow: clip;
-  background: url("http://enjoycss.com/bg-img/custom/122814-1d2lhae.png"), rgba(255,255,255,0);
+  background: url(../images/apple_logo.png), rgba(255,255,255,0);
   background-repeat: no-repeat;
   background-position: 15% 44%;
   -webkit-background-origin: padding-box;
@@ -1044,7 +1044,7 @@ display: inline-block;
 .ios_store_button:hover {
   border: 2px solid rgb(27,76,109);
   color: #1b4c6d;
-  background: url("http://enjoycss.com/bg-img/custom/122814-1fvv7p8.png"), rgba(255,255,255,1);
+  background: url(../images/apple_logo_hover.png), rgba(255,255,255,1);
   background-repeat: no-repeat;
   background-position: 15% 44%;
   -webkit-background-origin: padding-box;
@@ -1086,7 +1086,7 @@ display: inline-block;
   text-indent: 42px;
   -o-text-overflow: clip;
   text-overflow: clip;
-  background: url("http://enjoycss.com/bg-img/custom/122902-1op42v5.png"), rgba(255,255,255,0);
+  background: url(../images/windows_logo.png), rgba(255,255,255,0);
   background-repeat: no-repeat;
   background-position: 15% 44%;
   -webkit-background-origin: padding-box;
@@ -1106,7 +1106,7 @@ display: inline-block;
 .windows_store_button:hover {
   border: 2px solid rgb(27,76,109);
   color: #1b4c6d;
-  background: url("http://enjoycss.com/bg-img/custom/122902-1waz18o.png"), rgba(255,255,255,1);
+  background: url(../images/windows_logo_hover.png), rgba(255,255,255,1);
   background-repeat: no-repeat;
   background-position: 15% 44%;
   -webkit-background-origin: padding-box;
@@ -1149,7 +1149,7 @@ display: inline-block;
   text-indent: 42px;
   -o-text-overflow: clip;
   text-overflow: clip;
-  background: url("http://enjoycss.com/bg-img/custom/2660-1bxic7w.png"), rgba(255, 255, 255, 0);
+  background: url(../images/steam_logo.png), rgba(255, 255, 255, 0);
   background-repeat: no-repeat;
   background-position: 15% 44%;
   -webkit-background-origin: padding-box;
@@ -1169,7 +1169,7 @@ display: inline-block;
 .steam_store_button:hover {
   border: 2px solid rgb(27,76,109);
   color: rgb(27, 76, 109);
-  background: url("http://enjoycss.com/bg-img/custom/2660-1ihozu5.png"), rgba(255,255,255,1);
+  background: url("http://enjoycss.com/bg-img/custom/2660-1bxic7w.png"), rgba(255,255,255,1);
   background-repeat: no-repeat;
   background-position: 15% 44%;
   -webkit-background-origin: padding-box;
