@@ -224,7 +224,6 @@ $('#portfolio a').nivoLightbox({
       emailjs.send("gmail","zenkai_template",params)
         .then(function(response) 
         {
-            $('#messageHeader').fadeOut();
             $('#message-warning').hide();
             $('#formid').fadeOut();
             $('#message-success').fadeIn();   
