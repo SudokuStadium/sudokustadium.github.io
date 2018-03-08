@@ -193,10 +193,58 @@ $('#portfolio a').nivoLightbox({
 	});
 
 
-//
-//<!-- =============================================== -->
-//<!-- ========== Map ========== -->
-//<!-- =============================================== -->
+//*----------------------------------------------------*/
+/*  contact form
+------------------------------------------------------*/
+
+   function handleForm() {
+
+    var contactName = $('#formid #contactName').val();
+      var contactEmail = $('#formid #contactEmail').val();
+      var contactSubject = $('#formid #contactSubject').val();
+      var contactMessage = $('#formid #contactMessage').val();
+
+      contactMessage = contactMessage.replace("\n", "</br>");
+
+    $('#message-warning').fadeIn();
+    $('#message-warning').hide();
+      
+      if(!contactName || !contactEmail || !contactMessage || !contactSubject)
+      {
+          printContactError("All the fields are mandatory.");
+          return false;
+      }
+      
+      var params = {
+            name: contactName, 
+            email: contactEmail,
+            message: contactMessage,
+            subject: contactSubject
+        };
+      emailjs.send("gmail","zenkai_template",params)
+        .then(function(response) 
+        {
+            $('#messageHeader').fadeOut();
+            $('#message-warning').hide();
+            $('#formid').fadeOut();
+            $('#message-success').fadeIn();   
+        }, 
+        function(err) 
+        {
+            printContactError("Something went wrong\n, if the issue persist, try contact us on the social networks");
+        });
+
+    
+  
+  return false;
+   };
+
+   function printContactError(error)
+    {
+            $('#message-warning').html(error);
+            $('#message-warning').fadeIn();
+    }
+
 
 
 $(document).ready(function() {

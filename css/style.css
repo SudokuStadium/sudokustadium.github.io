@@ -657,6 +657,8 @@ a.info_right_text{
 	margin-top:40px;
 	margin-left:-20px;
 }
+
+
 .down_text_des a{
 	margin-left: 20px;
     margin-bottom: 30px;
@@ -1197,4 +1199,23 @@ display: inline-block;
   background-size: 40px 40px;
     display: inline-block;
 
+}
+
+#message-warning, #message-success {
+   display: none;
+    padding: 24px 24px;
+    margin-bottom: 36px;
+   width: 65%;
+   margin-left: 26%;
+}
+
+#message-warning i,
+#message-success i {
+   margin-right: 10px;
+}
+#image-loader {
+   display: none;
+   position: relative;
+   left: 18px;
+   top: 17px;
 }
