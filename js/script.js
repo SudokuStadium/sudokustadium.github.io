@@ -246,7 +246,7 @@ $('#portfolio a').nivoLightbox({
 
 
 
-$(document).ready(function() {
+/*$(document).ready(function() {
 
 
  /*google.maps.event.addDomListener(window, 'load', init);
@@ -279,7 +279,7 @@ $(document).ready(function() {
                     map: map,
                     title: 'Snazzy!'
                 });
-            }*/
+            }
 
 
-});	
+});	*/
