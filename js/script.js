@@ -3,8 +3,8 @@ $(document).ready(function() {
 
 	"use strict";
 	$(document).ready(function() {
-		$(".loaded").fadeOut();
-		$(".preloader").delay(1000).fadeOut("slow");
+		//$(".loaded").fadeOut();
+		//$(".preloader").delay(1000).fadeOut("slow");
 	}); 
     /*---------------------------------------------*
      * Mobile menu
