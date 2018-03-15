@@ -666,11 +666,12 @@ a.info_right_text{
 
 /* Subscribe */
 #subscribe{
-	background:url(../images/subbg.jpg) no-repeat scroll center center;
+	/*background:url(../images/subbg.jpg) no-repeat scroll center center;*/
+    background:#2980b9;
 	background-size:cover;
 }
 .subcribe_overlay{
-	background:rgba(0, 0, 0, 0.71);
+	background:rgba(0, 0, 0, 0.20);
 
 }
 #subscribe .subscribe_heading_text{padding: 60px 0px 100px 0px;}
