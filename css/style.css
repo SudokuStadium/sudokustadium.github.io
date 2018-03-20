@@ -667,8 +667,15 @@ a.info_right_text{
 /* Subscribe */
 #subscribe{
 	/*background:url(../images/subbg.jpg) no-repeat scroll center center;*/
-    background:#2980b9;
+    background:#94AFC1;
 	background-size:cover;
+}
+
+#subscribe-bg{
+    /*background:url(../images/subbg.jpg) no-repeat scroll center center;*/
+    background:#FFFFFF;
+    padding: 40px;
+    background-size:cover;
 }
 .subcribe_overlay{
 	background:rgba(0, 0, 0, 0.20);
@@ -834,6 +841,12 @@ a.info_right_text{
     padding-top: 300px;
     padding-bottom: 400px;	
 }
+
+.homepage3banner{
+    padding-top: 200px;
+    padding-bottom: 200px;  
+}
+
 .hmheading-text{
 	text-align:center;
 }
