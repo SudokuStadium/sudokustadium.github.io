@@ -1,11 +1,21 @@
 {
-	"applinks": {
-		"apps": [],
-		"details": [
-			{
-				"appID": "5DVD99WQGR.com.imaginationoverflow.sudokuzenkai",
-				"paths": [ "*"]
-			}
-		]
-	}
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "5DVD99WQGR.com.imaginationoverflow.sudokuzenkai"],
+             "components": [
+               
+               {
+                  "/": "/*",
+                  "comment": "Matches any URL whose path starts with /"
+               },
+			   {
+                  "/": "*",
+                  "comment": "Matches any URL"
+               },
+               
+             ]
+           }
+       ]
+   }
 }
