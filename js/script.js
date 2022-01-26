@@ -2,9 +2,9 @@
 $(document).ready(function() {
 
 	"use strict";
-	 $(window).on('load', function () {
-		$(".loaded").fadeOut();
-		$(".preloader").delay(1000).fadeOut("slow");
+	$(document).ready(function() {
+		//$(".loaded").fadeOut();
+		//$(".preloader").delay(1000).fadeOut("slow");
 	}); 
     /*---------------------------------------------*
      * Mobile menu
@@ -246,7 +246,7 @@ $('#portfolio a').nivoLightbox({
 
 
 
-$(document).ready(function() {
+/*$(document).ready(function() {
 
 
  /*google.maps.event.addDomListener(window, 'load', init);
@@ -279,7 +279,7 @@ $(document).ready(function() {
                     map: map,
                     title: 'Snazzy!'
                 });
-            }*/
+            }
 
 
-});	
+});	*/

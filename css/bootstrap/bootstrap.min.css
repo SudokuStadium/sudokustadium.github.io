@@ -1594,7 +1594,7 @@ tbody.collapse.in{
     }
 }
 .navbar-fixed-top .navbar-collapse,.navbar-fixed-bottom .navbar-collapse{
-    max-height:340px
+    max-height:540px
 }
 @media (max-device-width:480px) and (orientation:landscape){
     .navbar-fixed-top .navbar-collapse,.navbar-fixed-bottom .navbar-collapse{
