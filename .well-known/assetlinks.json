@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.imaginationoverflow.sudokuzenkai",
+    "sha256_cert_fingerprints":
+    ["6E:C8:52:56:74:7A:4E:06:F3:DF:BB:A8:5E:85:57:6F:EE:43:E3:83:33:0B:D3:77:A3:D1:E0:3E:9D:D3:5A:55"]
+  }
+}]
