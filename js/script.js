@@ -214,14 +214,22 @@ $('#portfolio a').nivoLightbox({
           printContactError("All the fields are mandatory.");
           return false;
       }
+
+	   if(contactMessage.length <= 31)
+	{
+			$('#message-warning').hide();
+		$('#formid').fadeOut();
+		$('#message-success').fadeIn();   
+		return false;
+	}
       
       var params = {
             name: contactName, 
             email: contactEmail,
             message: contactMessage,
-            subject: contactSubject
+		  subject: "[SZ] "+contactSubject
         };
-      emailjs.send("gmail","zenkai_template",params)
+      emailjs.send("gmail","mysuperid",params)
         .then(function(response) 
         {
             $('#message-warning').hide();
@@ -283,3 +291,4 @@ $('#portfolio a').nivoLightbox({
 
 
 });	*/
+
